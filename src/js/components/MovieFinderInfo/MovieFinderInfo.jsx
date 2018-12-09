@@ -19,7 +19,7 @@ export default class MovieFinderInfo extends React.Component {
   render() {
     return (
       <div>
-        <h1 className='text-center'>Movie Finder</h1>
+        <h1>Movie Finder</h1>
         <Back />
         <MovieDetail />
       </div>

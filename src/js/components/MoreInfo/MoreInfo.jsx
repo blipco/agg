@@ -8,7 +8,7 @@ export default class MoreInfo extends React.Component {
   render() {
     return (
       <div>
-        <a href={`#/movie/${this.props.imdbID}`} className='btn btn-primary mb-0 mt-2 ml-2 mr-3'>
+        <a href={`#/movie/${this.props.imdbID}`}>
           More Information
         </a>
       </div>

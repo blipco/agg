@@ -1,7 +1,7 @@
 {
-  "name": "movie-finder",
+  "name": "agg",
   "version": "0.1.0",
-  "description": "A new React project.",
+  "description": "Road Trip Gas Price Estimator",
   "main": "server/index.js",
   "scripts": {
     "build": "npm run less && webpack",

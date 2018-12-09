@@ -23,17 +23,15 @@ export default class MovieSearch extends React.Component {
   };
 
   render() {
-    const {userQuery} = this.props;
     return (
       <div>
-        <div className="input-group input-group-lg">
+        <div>
           <input value={userQuery} 
                  onChange={this.changeSearchBar} 
-                 className="form-control mb-4 mt-4" />
-          <div className="input-group-append">
-            <button onClick={this.clickGoButton} 
-                    className="input-group-text mb-4 mt-4">
-                    Go!
+                 />
+          <div>
+            <button onClick={this.clickGoButton}>
+              Go!
             </button>
           </div>
         </div>
