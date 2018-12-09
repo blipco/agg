@@ -42,7 +42,7 @@
     "serve-favicon": "^2.5.0",
     "superagent": "^4.0.0",
     "url-loader": "^0.5.9",
-    "webpack": "^4.27.1",
+    "webpack": "4.19.1",
     "webpack-cli": "^2.1.5"
   },
   "devDependencies": {
